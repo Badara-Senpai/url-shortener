@@ -2,6 +2,7 @@ class LinksController < ApplicationController
   def index
     @links = Link.recent_first
   end
+
   def create
     @link = Link.new(link_params)
 
