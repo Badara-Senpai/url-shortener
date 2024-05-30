@@ -20,7 +20,7 @@
     </div>
 
     <div class="text-center text-xs">
-      <%= link_to "Copy", link, class: "px-3 py-2 bg-gray-100 rounded no-underline" %>
+      <%= button_tag "Copy", data: {controller: "clipboard", clipboard_text: view_url(link)}, class: "font-medium px-3 py-2 bg-gray-100 rounded no-underline" %>
     </div>
   </div>
 <% end %>

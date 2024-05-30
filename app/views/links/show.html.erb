@@ -7,6 +7,8 @@
       <%= pluralize(@link.views_count, "view") %>
     </div>
 
+    <%= button_tag "Copy", data: {controller: "clipboard", clipboard_text: view_url(@link)}, class: "font-medium px-3 py-2 bg-gray-100 rounded no-underline" %>
+
     <%= link_to "Edit", edit_link_path(@link), class: "px-2 py-1.5 bg-gray-100 rounded no-underline" %>
   </div>
 </div>
