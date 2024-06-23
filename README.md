@@ -2,7 +2,7 @@
 
 ## Overview
 
-Password Manager App is a secure and efficient tool designed to help users manage their passwords and share them with other users based on roles and permissions. Built with Ruby on Rails 7 and PostgreSQL, it leverages Devise for authentication.
+A simple URL shortener application built with Ruby on Rails and SQLite, featuring a view counter for each shortened link and automated metadata fetching for enhanced analytics.
 
 ## Features
 
