@@ -4,14 +4,6 @@
 
 A simple URL shortener application built with Ruby on Rails and SQLite, featuring a view counter for each shortened link and automated metadata fetching for enhanced analytics.
 
-## Features
-
-- Secure password storage
-- Role-based access control
-- Share passwords with other users
-- User authentication with Devise
-- User-friendly interface
-
 ## Requirements
 
 - Ruby 3.2.2
